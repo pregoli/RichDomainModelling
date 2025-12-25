@@ -89,19 +89,3 @@ foreach (var evt in order.DomainEvents)
     Console.WriteLine(evt.GetType().Name);
 }
 ```
-
-## Related Article
-
-This code accompanies the article on [devocrazia.com](https://devocrazia.com/articles/rich-domain-modelling-escape-anaemic-models) which covers:
-
-- Why anaemic models are problematic
-- Value objects and their benefits
-- Entity vs Value Object design decisions
-- Aggregate boundaries and consistency
-- The Specification pattern
-- Domain services for cross-cutting behaviour
-- Testing rich domain models
-
-## License
-
-MIT
